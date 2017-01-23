@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+echo "---> Installing application archive"
+cp -Rf /tmp/src/. ./
+
+# Fix source directory permissions
+fix-permissions ./
