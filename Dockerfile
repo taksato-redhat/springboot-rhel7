@@ -3,7 +3,7 @@
 # This image provide a base for running Spring Boot based applications. It
 # provides a base Java 8 installation.
 
-FROM rhel7
+FROM openshift/base-rhel7
 
 EXPOSE 8080
 
